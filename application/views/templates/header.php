@@ -72,33 +72,33 @@
                     <h5 class="px-3 pb-3 border-bottom">Sistem Penjadwalan Kuliah</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a href="<?= base_url('dashboard') ?>" class="<?= $this->uri->segment(1) == 'dashboard' || $this->uri->segment(1) == '' ? 'active' : '' ?>">
-                                <i class="fas fa-tachometer-alt me-2"></i> Dashboard
+                            <a href="<?= base_url('dashboard') ?>" class="<?= $this->uri->segment(1) == 'dashboard' || $this->uri->segment(1) == '' ? 'active' : '' ?> rounded-3">
+                                <i class="fas fa-tachometer-alt me-2 fa-fw"></i> Dashboard
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('dosen') ?>" class="<?= $this->uri->segment(1) == 'dosen' ? 'active' : '' ?>">
-                                <i class="fas fa-users me-2"></i> Data Dosen
+                            <a href="<?= base_url('dosen') ?>" class="<?= $this->uri->segment(1) == 'dosen' ? 'active' : '' ?> rounded-3">
+                                <i class="fas fa-users me-2 fa-fw"></i> Data Dosen
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('matakuliah') ?>" class="<?= $this->uri->segment(1) == 'matakuliah' ? 'active' : '' ?>">
-                                <i class="fas fa-book me-2"></i> Data Mata Kuliah
+                            <a href="<?= base_url('matakuliah') ?>" class="<?= $this->uri->segment(1) == 'matakuliah' ? 'active' : '' ?> rounded-3">
+                                <i class="fas fa-book me-2 fa-fw"></i> Data Mata Kuliah
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('ruang') ?>" class="<?= $this->uri->segment(1) == 'ruang' ? 'active' : '' ?>">
-                                <i class="fas fa-door-open me-2"></i> Data Ruang
+                            <a href="<?= base_url('ruang') ?>" class="<?= $this->uri->segment(1) == 'ruang' ? 'active' : '' ?> rounded-3">
+                                <i class="fas fa-door-open me-2 fa-fw"></i> Data Ruang
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('jadwal') ?>" class="<?= $this->uri->segment(1) == 'jadwal' && $this->uri->segment(2) != 'weekly' ? 'active' : '' ?>">
-                                <i class="fas fa-calendar-alt me-2"></i> Data Jadwal
+                            <a href="<?= base_url('jadwal') ?>" class="<?= $this->uri->segment(1) == 'jadwal' && $this->uri->segment(2) != 'weekly' ? 'active' : '' ?> rounded-3">
+                                <i class="fas fa-calendar-alt me-2 fa-fw"></i> Data Jadwal
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('jadwal/weekly') ?>" class="<?= $this->uri->segment(1) == 'jadwal' && $this->uri->segment(2) == 'weekly' ? 'active' : '' ?>">
-                                <i class="fas fa-calendar-week me-2"></i> Jadwal Mingguan
+                            <a href="<?= base_url('jadwal/weekly') ?>" class="<?= $this->uri->segment(1) == 'jadwal' && $this->uri->segment(2) == 'weekly' ? 'active' : '' ?> rounded-3">
+                                <i class="fas fa-calendar-week me-2 fa-fw"></i> Jadwal Mingguan
                             </a>
                         </li>
                     </ul>
