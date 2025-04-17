@@ -67,7 +67,7 @@ class Jadwal_model extends CI_Model {
     }
     
     public function get_weekly_schedule() {
-        $hari = ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+        $hari = ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat'];
         $schedule = [];
         
         foreach($hari as $h) {
