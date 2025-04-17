@@ -24,7 +24,7 @@ class Dashboard extends CI_Controller {
     
     private function get_jadwal_today() {
         $hari_ini = date('N'); // 1 (Senin) sampai 7 (Minggu)
-        $hari = ['', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'];
+        $hari = ['', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat'];
         
         // Jika hari ini adalah Minggu, tampilkan jadwal kosong
         if($hari_ini == 7) {
